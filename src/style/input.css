@@ -1,0 +1,51 @@
+.input
+{
+    position: absolute;
+    top:80px;
+    width: 800px;
+    height: 500px;
+    min-height: 500px;
+    resize: none;
+    background-color: rgba(41, 131, 233, 0);
+    outline: none;
+    border: none;
+    font-size: 20px;
+    color:#0bda26;
+    padding: 40px;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 1px;
+    z-index: 2;
+    transition: all 200ms;
+
+}
+
+.input.error
+{
+    transition: all 200ms;
+    color: red;
+}
+
+.total
+{
+    color:#fff;
+    font-size: 30px;
+}
+
+.option{
+    position: absolute;
+    font-size: 20px;
+    color:#ffd90077;
+    width: 800px;
+    height: 500px;
+    min-height: 500px;
+    padding: 40px;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 1px;
+    z-index: 1;
+    transition: all 200ms;
+}
+
+.option.error{
+    transition: all 200ms;
+    color: rgba(255, 0, 0, 0.377);
+}
